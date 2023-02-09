@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-k8s
-          image: kubernetes:1.0
+          image: exceptiongenerator/kubernetes:latest
           # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
